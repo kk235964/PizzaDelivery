@@ -17,7 +17,7 @@ function updateCart(pizza) {
     }).catch(err=>{
         new Noty ({
             text: 'Something went wrong !',
-            type: 'error',
+         type: 'error',
             timeout: 1000,
             progressBar: false,
             
